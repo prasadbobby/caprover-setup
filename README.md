@@ -11,9 +11,9 @@
 	8. `docker run hello-world` <br>
 
 ### CapRover Install<br>
-	9. `ufw allow 80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;`<br>
-	10.`docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock -v /captain:/captain caprover/caprover`<br><br>
+	9. `ufw allow 80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;` 
+	10.`docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock -v /captain:/captain caprover/caprover` 
 
 ### CapRover Setup (You will need NodeJS and NPM installed on our local computer)<br>
-	11.`npm install -g caprover`<br>
+	11.`npm install -g caprover` 
 	12.`caprover serversetup`
